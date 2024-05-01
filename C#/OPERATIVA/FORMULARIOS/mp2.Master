@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="mp2.Master.cs" Inherits="WebApplication1.Site2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>MardelTicket.com</title>
+<link href="../style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body class="body2">
+<div id="two-columns">
+<asp:ContentPlaceHolder id="head" runat="server">
+		<div id="col1">
+			<p> 
+            </p>
+			<p>
+                <br />
+			</p>
+		</div>
+		<div id="Col1">
+			<p> 
+            </p>
+			<p>
+                <br />
+			</p>
+		</div>
+        </asp:ContentPlaceHolder>
+</div>
+    <br />
+    <br />
+</body>
+</html>

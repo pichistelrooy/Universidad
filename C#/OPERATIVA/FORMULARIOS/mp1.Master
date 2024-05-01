@@ -1,0 +1,19 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="mp1.master.cs" Inherits="TPOPERATIVA.Formularios.mp1" %>
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+        <asp:Button ID="btnEntrar" runat="server" Text="Entrar" OnClick="btnEntrar_Click" />
+        <asp:Label ID="lblMensaje" runat="server" Text="Ingrese al sistema"></asp:Label>
+        <asp:Button ID="btnAdministrador" runat="server" Text="Administrador" OnClick="btnAdministrador_Click" />
+        <asp:Button ID="btnVentas" runat="server" Text="Ventas" OnClick="btnVentas_Click" />
+
+    </form>
+</body>
+</html>
